@@ -19,10 +19,10 @@ setup(
 	keywords=['framework', 'robotic', 'marker', 'vision', 'ar marker', 'ar'],
 	author_email="walchko@github.users.noreply.com",
 	description="A python robotic framework and tools",
-	license="MIT",
+	license="BSD",
 	classifiers=[
 		'Development Status :: 4 - Beta',
-		'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+		'License :: OSI Approved :: BSD License',
 		'Programming Language :: Python :: 2.7',
 		'Programming Language :: Python :: 3.6',
 		'Operating System :: Unix',
