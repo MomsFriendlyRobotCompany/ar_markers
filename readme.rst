@@ -1,4 +1,4 @@
-.. image:: pics/marker.png
+.. image:: https://raw.githubusercontent.com/walchko/ar_markers/master/pics/marker.png
 	:target: https://github.com/walchko/ar_markers
 
 ar-markers
@@ -23,15 +23,21 @@ This package is able to read and create hamming markers, described in
 Install
 ---------
 
-
-::
+The simplest way to install is::
 
   pip install ar_markers
 
 Helperscripts
 -------------
 
-There are two helperscripts located in ``ar_markers/scripts``. ``generate_marker`` to generate the markers and `livetest`. To do the ``livetest``, first generate some markers and print them out. After that, start the livetest and hold the marker into your camera. You will see a blue border around the marker, (if detected) and a green number, showing the ID the marker represents.
+There are two helper scripts:
+
+- ``ar_marker_generate.py`` to generate the markers. Do ``ar_marker_generate.py --help``
+  to see the options
+- ``ar_marker_scan.py`` to scan the marker. Once you have created and printed out a
+  marker, hold the marker into your camera. You will see a blue border around
+  the marker, (if detected) and a green number, showing the ID the marker
+  represents.
 
 License
 ---------

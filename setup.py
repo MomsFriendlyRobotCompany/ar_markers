@@ -16,7 +16,7 @@ setup(
 	name=PACKAGE_NAME,
 	version=VERSION,
 	author="Kevin Walchko",
-	keywords=['framework', 'robotic', 'robot', 'vision', 'ros', 'distributed'],
+	keywords=['framework', 'robotic', 'marker', 'vision', 'ar marker', 'ar'],
 	author_email="walchko@github.users.noreply.com",
 	description="A python robotic framework and tools",
 	license="MIT",
