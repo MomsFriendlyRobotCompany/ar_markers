@@ -8,7 +8,6 @@ from build_utils import BinaryDistribution
 
 PACKAGE_NAME = 'ar_marker'
 BuildCommand.pkg = PACKAGE_NAME
-# BuildCommand.py3 = False  # python 3 build isn't working yet with zmq, need time to fix
 PublishCommand.pkg = PACKAGE_NAME
 PublishCommand.version = VERSION
 README = open('readme.rst').read()
@@ -18,7 +17,7 @@ setup(
 	version=VERSION,
 	author="Kevin Walchko",
 	keywords=['framework', 'robotic', 'robot', 'vision', 'ros', 'distributed'],
-	author_email="kevin.walchko@outlook.com",
+	author_email="walchko@github.users.noreply.com",
 	description="A python robotic framework and tools",
 	license="MIT",
 	classifiers=[
@@ -38,7 +37,7 @@ setup(
 	install_requires=[
 		'build_utils'
 	],
-	url="https://github.com/MomsFriendlyRobotCompany/{}".format(PACKAGE_NAME),
+	url="https://github.com/walchko/{}".format(PACKAGE_NAME),
 	long_description=README,
 	packages=[PACKAGE_NAME],
 	cmdclass={
