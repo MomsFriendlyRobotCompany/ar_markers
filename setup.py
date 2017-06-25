@@ -1,12 +1,12 @@
 from __future__ import print_function
 from setuptools import setup
-from ar_marker.version import __version__ as VERSION
+from ar_markers.version import __version__ as VERSION
 from build_utils import BuildCommand
 from build_utils import PublishCommand
 from build_utils import BinaryDistribution
 
 
-PACKAGE_NAME = 'ar_marker'
+PACKAGE_NAME = 'ar_markers'
 BuildCommand.pkg = PACKAGE_NAME
 PublishCommand.pkg = PACKAGE_NAME
 PublishCommand.version = VERSION
@@ -44,7 +44,8 @@ setup(
 		'publish': PublishCommand,
 		'make': BuildCommand
 	},
-# 	scripts=[
-# 		'bin/?.py'
-# 	]
+	scripts=[
+		'bin/ar_marker_generate.py',
+		'bin/ar_marker_scan.py'
+	]
 )
