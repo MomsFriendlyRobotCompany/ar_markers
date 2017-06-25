@@ -45,7 +45,7 @@ setup(
 		'make': BuildCommand
 	},
 	scripts=[
-		'bin/ar_marker_generate.py',
-		'bin/ar_marker_scan.py'
+		'bin/ar_markers_generate.py',
+		'bin/ar_markers_scan.py'
 	]
 )
