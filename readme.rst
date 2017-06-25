@@ -3,13 +3,13 @@
 
 ar_markers
 =================
-.. image:: https://img.shields.io/pypi/l/ar_marker.svg
+.. image:: https://img.shields.io/pypi/l/ar_markers.svg
 	:target: https://github.com/walchko/ar_markers
-.. image:: https://img.shields.io/pypi/pyversions/ar_marker.svg
+.. image:: https://img.shields.io/pypi/pyversions/ar_markers.svg
 	:target: https://github.com/walchko/ar_markers
-.. image:: https://img.shields.io/pypi/wheel/ar_marker.svg
+.. image:: https://img.shields.io/pypi/wheel/ar_markers.svg
 	:target: https://github.com/walchko/ar_markers
-.. image:: https://img.shields.io/pypi/v/ar_marker.svg
+.. image:: https://img.shields.io/pypi/v/ar_markers.svg
 	:target: https://github.com/walchko/ar_markers
 
 Detection of hamming markers for OpenCV written in python.
