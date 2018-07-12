@@ -20,6 +20,11 @@ All I did was clean up some little stuff and package it for use on pypi.
 This package is able to read and create hamming markers, described in
 `this blogpost <http://iplimage.com/blog/approach-encodedecode-black-white-marker/>`_.
 
+Purpose
+--------
+
+This project was for a robotics/computer vision `class <https://github.com/MarsUniversity/ece387>`_ I taught Spring 2018. I wanted something simple enough we could go through the code and they could understood how it worked. I also taught them OpenCV, so I wanted something written in that. Eventually we made "street signs" and the students drove Roomba robots around on these "strees" (ok, really it was 3 inch whide black tape for the roads). When they detected an intersection, they used a camera to read the street sign (ar marker) and it told them to: go straight, turn left, or turn right.
+
 Install
 ---------
 
