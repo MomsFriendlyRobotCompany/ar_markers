@@ -1,3 +1,5 @@
+# this is all hamming code stuff, no user stuff here ... move along, move along
+
 from numpy import matrix, array
 
 GENERATOR_MATRIX = matrix([

@@ -23,7 +23,17 @@ This package is able to read and create hamming markers, described in
 Purpose
 --------
 
-This project was for a robotics/computer vision `class <https://github.com/MarsUniversity/ece387>`_ I taught Spring 2018. I wanted something simple enough we could go through the code and they could understood how it worked. I also taught them OpenCV, so I wanted something written in that. Eventually we made "street signs" and the students drove Roomba robots around on these "strees" (ok, really it was 3 inch whide black tape for the roads). When they detected an intersection, they used a camera to read the street sign (ar marker) and it told them to: go straight, turn left, or turn right.
+This project was for a robotics/computer vision `class <https://github.com/MarsUniversity/ece387>`_
+I taught Spring 2018. I wanted something simple enough we could go through the
+code and they could understood how it worked. I also taught them OpenCV, so
+I wanted something written in that. Eventually we made "street signs" and the
+students drove Roomba robots around on these "strees" (ok, really it was 3 inch
+wide black tape for the roads). When they detected an intersection, they used
+a camera to read the street sign (ar marker) and it told them to: go straight,
+turn left, or turn right.
+
+Sometimes it isn't as robust as I would like, so you may have to move the target
+around before it gets recognized.
 
 Install
 ---------
@@ -32,14 +42,18 @@ The simplest way to install is::
 
   pip install ar_markers
 
+You will also need OpenCV 3.x as a minimum. On macOS you can do::
+
+	brew install opencv
+
 Usage
 -------------
 
 There are two helper scripts:
 
-- ``ar_marker_generate.py`` to generate the markers. Do ``ar_marker_generate.py --help``
+- ``ar_markers_generate.py`` to generate the markers. Do ``ar_markers_generate.py --help``
   to see the options
-- ``ar_marker_scan.py`` to scan the marker. Once you have created and printed out a
+- ``ar_markers_scan.py`` to scan the marker. Once you have created and printed out a
   marker, hold the marker in front of your camera. You will see a blue border around
   the marker, (if detected) and a green number, showing the ID the marker
   represents.

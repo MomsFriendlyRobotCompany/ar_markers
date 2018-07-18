@@ -1,6 +1,7 @@
+from __future__ import absolute_import
 from ar_markers.detect import detect_markers
-from .marker import HammingMarker
+from ar_markers.marker import HammingMarker
 
-from .version import __version__
 __author__ = 'Kevin J. Walcko'
-__license__ = 'GPL v3'
+__license__ = 'BSD'
+__version__ = '0.5.0'
